@@ -1,0 +1,86 @@
+192.168.75.233	aa.ut.com
+127.0.0.1	localhost
+
+192.168.5.15	na.ut.com
+192.168.5.16	nb.ut.com
+192.168.6.15	nc.ut.com
+192.168.6.16	nd.ut.com
+192.168.75.45	tuna.ut.com
+192.168.75.46	bb.ut.com
+192.168.75.50	cc.ut.com
+
+192.168.5.252	hadoop252
+192.168.5.253	hadoop253
+192.168.5.254	hadoop254
+
+192.168.5.25	hadoop25
+192.168.5.26	hadoop26
+192.168.5.27	hadoop27
+192.168.5.28	hadoop28
+192.168.5.29	hadoop29
+
+192.168.5.220	mongo_220
+192.168.5.221	mongo_221
+192.168.5.222	mongo_222
+
+192.168.75.21	ljs.ut.com
+192.168.75.22	hff.ut.com
+192.168.75.166	oyx.ut.com
+192.168.75.233	wxh.ut.com
+192.168.75.50 shark.ut.com
+
+192.168.5.223	MON4
+192.168.6.220	MON5
+192.168.6.221	MON6
+
+192.168.7.41	SQL1
+192.168.7.42	SQL2
+192.168.7.43	SQL3
+
+192.168.5.142	HFS6
+192.168.6.142	HFS7
+192.168.5.143	HFS11
+192.168.6.143	HFS12
+192.168.6.144	HFS13
+
+192.168.7.25	namenode1
+192.168.8.25	namenode2
+192.168.7.26	datanode1
+192.168.8.26	datanode2
+192.168.8.27	datanode3
+
+192.168.7.220	MON1
+192.168.7.221	MON2
+192.168.8.220	MON3
+
+
+192.168.75.21 cn.6.ljs.lb.com
+192.168.75.21 cn.6.ljs.oyx.com
+192.168.75.21 cn.6.ljs.wxh.com
+192.168.75.21 cn.6.ljs.gl.com
+
+192.168.75.21 admin.6.ljs.lb.com
+192.168.75.21 admin.6.ljs.oyx.com
+192.168.75.21 admin.6.ljs.wxh.com
+192.168.75.21 admin.6.ljs.gl.com
+
+192.168.75.21 m.6.ljs.lb.com
+192.168.75.21 m.6.ljs.oyx.com
+192.168.75.21 m.6.ljs.wxh.com
+192.168.75.21 m.6.ljs.gl.com
+
+
+192.168.75.22 cn.6.hff.lb.com
+192.168.75.22 cn.6.hff.oyx.com
+192.168.75.22 cn.6.hff.wxh.com
+192.168.75.22 cn.6.hff.gl.com
+
+192.168.75.22 admin.6.hff.lb.com
+192.168.75.22 admin.6.hff.oyx.com
+192.168.75.22 admin.6.hff.wxh.com
+192.168.75.22 admin.6.hff.gl.com
+
+192.168.75.22 m.6.hff.lb.com
+192.168.75.22 m.6.hff.oyx.com
+
+

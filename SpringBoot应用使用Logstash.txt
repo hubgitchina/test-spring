@@ -1,0 +1,26 @@
+1. 在项目的pom.xml文件添加日志组件logback对logstash的功能依赖，将在日志配置文件中使用到
+
+<dependency>
+	<groupId>net.logstash.logback</groupId>
+    <artifactId>logstash-logback-encoder</artifactId>
+	<!-- 这个是最新版本，其他低版本也可 -->
+    <version>5.2</version>
+</dependency>
+
+2. 使用独立的logback.xml日志配置文件，如果需要对不同的Spring profile使用不同的配置，可添加多个logback-${profile}.xml
+logback-*.xml文件放置项目下的源码目录src\main\resources即可
+
+3. 在logback-*.xml文件中添加针对logstash功能的appender配置，内容如下
+
+<appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+    <!-- logstash服务地址 -->
+    <destination>192.168.105.73:4560</destination>
+    <encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder">
+	   <!-- 日志自定义字段，随日志内容一起进行存储，方便在日志查看端kibana中按此字段进行检索 -->
+       <customFields>{"projectName":"biz-order-service"}</customFields>
+    </encoder>
+</appender>
+
+<root level="INFO">
+     <appender-ref ref="LOGSTASH"/>   
+</root>
